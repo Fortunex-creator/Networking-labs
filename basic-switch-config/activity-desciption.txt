@@ -1,0 +1,21 @@
+Activity: Basic Switch and End Device Configuration
+
+Objective:
+- Set up a simple LAN using one switch and two end devices (PCs).
+- Assign IP addresses to the end devices.
+- Configure the switch with a management IP address.
+- Verify connectivity between devices and the switch.
+
+Tasks:
+1. Connect two PCs to a switch using appropriate ports.
+2. Configure IP addresses and subnet masks on both PCs.
+3. Configure the switch with a hostname and an IP address on VLAN 1.
+4. Ensure the switch interface is enabled.
+5. Save the switch configuration.
+6. Test connectivity:
+   - Ping between PC1 and PC2.
+   - Ping from each PC to the switch.
+
+Expected Outcome:
+- Both PCs should be able to communicate with each other.
+- Both PCs should be able to reach the switch.
